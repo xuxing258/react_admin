@@ -1,0 +1,81 @@
+.home {
+    // 布局
+    .ant-layout{
+        color: #fff;
+
+        .ant-layout-header{
+            color: #fff;
+        }
+
+        .ant-layout-sider{
+            height: 100vh;
+            background-color: #001529;
+        }
+        .ant-layout-header{
+            line-height: 50px;
+            height: 50px;
+            user-select: none;
+            .welcome{
+                margin-right: 3px;
+                font-size: 16px;
+                font-style: italic;
+                
+            }
+
+            .color_luyao{
+                color: green;
+            }
+            .exit{
+                margin:0 20px 8px;
+                cursor: pointer;
+            }
+        }
+    }
+    
+    // 主体内容
+    .ant-layout-content{
+        background-color: #fff;
+        color: black;
+        // 天气
+        .display_content{
+            line-height: 40px;
+            height: 40px;
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            user-select: none;
+            .tilte{
+                width: 20%;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: "微软雅黑";
+                font-style: italic;
+            }
+
+           
+        }   
+    }
+
+
+    .center_page{
+        background-color: #eee;
+
+        // 分类管理
+        .goodsa_cca{
+            padding: 12px 0 0 0 ;
+            .ant-card{
+                padding: 0 10px;
+            }
+        }
+    }
+   
+}
+
+
+.home { 
+
+    .cylinder{
+        width: 50%;
+        height: 500px;
+    }
+}

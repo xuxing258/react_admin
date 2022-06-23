@@ -1,0 +1,34 @@
+.login_box{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/123.webp");
+    user-select: none;
+    .center{
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0; 
+        width: 500px;
+        height: 300px;
+        margin: auto;
+        background-color: #eee;
+        border-radius: 10px;
+
+        h2{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 19px;
+            font-weight: 800;
+        }
+
+        //ui框架样式 
+        .ant-form-item-control-input .ant-btn{
+            padding: 4px 50px;
+        }
+    }
+}

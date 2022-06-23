@@ -1,0 +1,61 @@
+.center_page .goodsa_cca{
+
+    // 设置表格的高度
+    .ant-table{
+        min-height: 605px;
+
+        .ant-tag{
+            cursor: pointer;
+        }
+    }
+    
+}
+
+// 弹出框iocn图片 隐藏
+.ant-popover-content .ant-popover-message{
+    .anticon{
+        display: none;
+    }
+
+    .ant-popover-message-title{
+        padding: 0;
+    }
+}
+
+
+// 商品管理组件
+.goods_account {
+
+    // 搜索设置
+    .good_title{
+
+        .ant-input{
+            margin: 0 8px;
+        }
+    }
+
+   
+}
+
+.ant-layout{
+    // 添加商品
+ .good_shop{
+    padding-top: 15px;
+        .ant-page-header{
+            padding: 0  0 0 20px;
+            background: #fff;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #eee;
+        }
+        .ant-page-header-heading-title{
+            font-size: 18px;
+        }
+    }
+
+    .ant-form{
+        padding-top: 25px;
+        background-color: #fff;
+    }
+}
+ 
