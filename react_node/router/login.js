@@ -172,9 +172,12 @@ router.post("/change", async (req, res) => {
     ],
     roleShowArr: ["0-0", "0-1", "0-2", "0-3", "0-4"],
   });
+
+  console.log(bol);
+
   let bol1 = await mongoLogin.findOne({ loginName: "root" });
   if (bol1) return;
-
+  
   await mongoLogin.create({
     loginName: "root", //用户名
     loginPass: "123123", // 密码

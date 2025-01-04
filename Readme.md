@@ -35,3 +35,13 @@ npm run start // 启动
 7. 天气与地址
 8. 添加与修改商品
 
+### 项目维护
+
+- mongoose:   更新到8.9.3版本
+  - 不支持使用localhost，需要使用127.0.0.1
+    - 链接数据库，与session使用127.0.01
+-  punycode 库弃用
+  - 通过` node --trace-deprecation app.js ` 获取弃用位置
+  - 将 **require('punycode');** 替换为 **require('punycode/');**
+- 天气接口已失效
+
